@@ -46,7 +46,7 @@ export default class Main extends Component {
           <Skills />
           <StackProgress />
           <Education />
-          <WorkExperience />
+          {/* <WorkExperience /> */}
           <Projects />
           <StartupProject />
           <Achievement />
@@ -55,7 +55,7 @@ export default class Main extends Component {
           <Twitter />
           <Podcast />
           <Profile />
-          <Footer />
+          {/* <Footer /> */}
           <Top />
         </StyleProvider>
       </div>
