@@ -26,7 +26,7 @@ const socialMediaLinks = {
   // linkedin: 'https://www.linkedin.com/in/saadpasta/',
   gmail: 'kennethrazalan29@gmail.com',
   // gitlab: 'https://gitlab.com/saadpasta',
-  facebook: 'https://www.facebook.com/saad.pasta7',
+  facebook: 'https://web.facebook.com/kennethalerozarazalanz/',
   // medium: 'https://medium.com/@saadpasta',
   // stackoverflow: 'https://stackoverflow.com/users/10422806/saad-pasta',
   // Instagram and Twitter are also supported in the links!
@@ -37,104 +37,104 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: 'What I do',
-  subTitle: 'CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK',
+  subTitle: 'Knowledgable in MERN Stack and other cool Technologies',
   skills: [
     emoji(
-      '⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications'
+      '⚡ Develop highly interactive Front end / User Interfaces for web applications'
     ),
-    emoji('⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks'),
-    emoji(
-      '⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean'
-    ),
+    emoji('⚡ Backend Development using NodeJs')
+    // emoji(
+    //   '⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean'
+    // ),
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
 https://fontawesome.com/icons?d=gallery */
 
-  softwareSkills: [
-    {
-      skillName: 'html-5',
-      fontAwesomeClassname: 'fab fa-html5',
-    },
-    {
-      skillName: 'css3',
-      fontAwesomeClassname: 'fab fa-css3-alt',
-    },
-    {
-      skillName: 'sass',
-      fontAwesomeClassname: 'fab fa-sass',
-    },
-    {
-      skillName: 'JavaScript',
-      fontAwesomeClassname: 'fab fa-js',
-    },
-    {
-      skillName: 'reactjs',
-      fontAwesomeClassname: 'fab fa-react',
-    },
-    {
-      skillName: 'nodejs',
-      fontAwesomeClassname: 'fab fa-node',
-    },
-    {
-      skillName: 'swift',
-      fontAwesomeClassname: 'fab fa-swift',
-    },
-    {
-      skillName: 'npm',
-      fontAwesomeClassname: 'fab fa-npm',
-    },
-    {
-      skillName: 'sql-database',
-      fontAwesomeClassname: 'fas fa-database',
-    },
-    {
-      skillName: 'aws',
-      fontAwesomeClassname: 'fab fa-aws',
-    },
-    {
-      skillName: 'firebase',
-      fontAwesomeClassname: 'fas fa-fire',
-    },
-    {
-      skillName: 'python',
-      fontAwesomeClassname: 'fab fa-python',
-    },
-    {
-      skillName: 'docker',
-      fontAwesomeClassname: 'fab fa-docker',
-    },
-  ],
+softwareSkills: [
+  {
+    skillName: "html-5",
+    fontAwesomeClassname: "fab fa-html5"
+  },
+  {
+    skillName: "css3",
+    fontAwesomeClassname: "fab fa-css3-alt"
+  },
+  {
+    skillName: "sass",
+    fontAwesomeClassname: "fab fa-sass"
+  },
+  {
+    skillName: "JavaScript",
+    fontAwesomeClassname: "fab fa-js"
+  },
+  {
+    skillName: "reactjs",
+    fontAwesomeClassname: "fab fa-react"
+  },
+  {
+    skillName: "nodejs",
+    fontAwesomeClassname: "fab fa-node"
+  },
+  {
+    skillName: "git",
+    fontAwesomeClassname: "fab fa-git"
+  },
+  {
+    skillName: "github",
+    fontAwesomeClassname: "fab fa-github"
+  },
+  {
+    skillName: "npm",
+    fontAwesomeClassname: "fab fa-npm"
+  },
+  {
+    skillName: "mongo-db",
+    fontAwesomeClassname: "fas fa-database"
+  },
+  // {
+  //   skillName: "aws",
+  //   fontAwesomeClassname: "fab fa-aws"
+  // },
+  {
+    skillName: "firebase",
+    fontAwesomeClassname: "fas fa-fire"
+  },
+  // {
+  //   skillName: "python",
+  //   fontAwesomeClassname: "fab fa-python"
+  // },
+  // {
+  //   skillName: "docker",
+  //   fontAwesomeClassname: "fab fa-docker"
+  // }
+],
   display: true, // Set false to hide this section, defaults to true
 };
 
 // Education Section
 
 const educationInfo = {
-  display: true, // Set false to hide this section, defaults to true
+  display: true, // Set it to true to see education section
   schools: [
     {
-      schoolName: 'Harvard University',
-      logo: require('./assets/images/harvardLogo.png'),
-      subHeader: 'Master of Science in Computer Science',
-      duration: 'September 2017 - April 2019',
-      desc: 'Participated in the research of XXX and published 3 papers.',
-      descBullets: [
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
-      ],
+      schoolName: "STI College Balayan",
+      logo: require("./assets/images/download.png"),
+      subHeader: "Bachelor of Science in Information Technology",
+      duration: "2016 - 2020",
     },
-    {
-      schoolName: 'Stanford University',
-      logo: require('./assets/images/stanfordLogo.png'),
-      subHeader: 'Bachelor of Science in Computer Science',
-      duration: 'September 2013 - April 2017',
-      desc:
-        'Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...',
-      descBullets: ['Lorem ipsum dolor sit amet, consectetur adipiscing elit'],
-    },
-  ],
-};
+    // {
+    //   schoolName: "Stanford University",
+    //   logo: require("./assets/images/stanfordLogo.png"),
+    //   subHeader: "Bachelor of Science in Computer Science",
+    //   duration: "September 2013 - April 2017",
+    //   desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
+    //   descBullets: [
+    //     "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+    //   ]
+    // }
+  ]
+}
 
 // Your top 3 proficient stacks/tech experience
 
@@ -229,57 +229,34 @@ const achievementSection = {
   subtitle:
     'Achievements, Certifications, Award Letters and Some Cool Stuff that I have done !',
 
-  achievementsCards: [
-    {
-      title: 'Google Code-In Finalist',
-      subtitle:
-        'First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.',
-      image: require('./assets/images/codeInLogo.webp'),
-      footerLink: [
-        {
-          name: 'Certification',
-          url:
-            'https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing',
-        },
-        {
-          name: 'Award Letter',
-          url:
-            'https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing',
-        },
-        {
-          name: 'Google Code-in Blog',
-          url:
-            'https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html',
-        },
-      ],
-    },
-    {
-      title: 'Google Assistant Action',
-      subtitle:
-        'Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.',
-      image: require('./assets/images/googleAssistantLogo.webp'),
-      footerLink: [
-        {
-          name: 'View Google Assistant Action',
-          url:
-            'https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en',
-        },
-      ],
-    },
-
-    {
-      title: 'PWA Web App Developer',
-      subtitle: 'Completed Certifcation from SMIT for PWA Web App Development',
-      image: require('./assets/images/pwaLogo.webp'),
-      footerLink: [
-        { name: 'Certification', url: '' },
-        {
-          name: 'Final Project',
-          url: 'https://pakistan-olx-1.firebaseapp.com/',
-        },
-      ],
-    },
-  ],
+    achievementsCards: [
+      {
+        title: "Javascript  Algorithms and Data Structures FreeCodeCamp Certification ",
+        subtitle: "Completed Javascript Algorithms and Data Structures Course in FreeCodeCamp.",
+        image: require("./assets/images/fcc.png"),
+        footerLink: [
+          { name: "Certification", url: "https://drive.google.com/file/d/1FLRpXsI0LcEKC9pxt2alEnLMTOnnNS9w/view?usp=sharing" },
+          // { name: "Award Letter", url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing" },
+          // { name: "Google Code-in Blog", url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html" }
+        ]
+      },
+      {
+        title: "ReactJS Udemy Certification",
+        subtitle: "Completed 39 hours of The Modern React Bootcamp by Colt Steele in Udemy",
+        image: require("./assets/images/udemy.jpg"),
+        footerLink: [ { name: "Certification", url: "https://drive.google.com/file/d/1F9h05jdOayHfrU7V6Qxw82P8XpDsgMFn/view?usp=sharing" }]
+      },
+  
+      {
+        title: "Cyber Security Intern",
+        subtitle: "Completed 382 hours of On-The-Job Training under CyberSec Group with ePLDT Inc.",
+        image: require("./assets/images/cert.PNG"),
+        footerLink: [
+          { name: "Certification", url: "https://drive.google.com/file/d/1F8KsRu5Bt7DMJEbRec7QwPwmHe-vLUwf/view?usp=sharing" },
+          
+        ]
+      }
+    ],
   display: true, // Set false to hide this section, defaults to true
 };
 
