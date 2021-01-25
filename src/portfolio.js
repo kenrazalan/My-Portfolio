@@ -42,6 +42,8 @@ const skillsSection = {
     emoji(
       '⚡ Develop highly interactive Front end / User Interfaces for web applications'
     ),
+    emoji('⚡ Able to convert UI prototype into Front-end code')
+    ,
     emoji('⚡ Backend Development using NodeJs')
     // emoji(
     //   '⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean'
