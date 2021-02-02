@@ -15,7 +15,7 @@ const greeting = {
     'An aspiring Web Developer 🚀 who loves to build Web applications with JavaScript / Reactjs / Nodejs and some other cool libraries and frameworks.'
   ),
   resumeLink:
-    '',
+    '#',
   displayGreeting: true, // Set false to hide this section, defaults to true
 };
 
