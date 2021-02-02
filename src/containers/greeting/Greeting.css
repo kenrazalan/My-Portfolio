@@ -80,6 +80,8 @@
   }
 }
 
+
+
 /* Media Query */
 @media (max-width: 1380px) {
   .greeting-text {
@@ -108,4 +110,25 @@
   .greeting-image-div{
     height: 256px;
   }
+}
+
+
+.cursor{
+  font-weight: 600;
+	color: #7CFC11;
+	opacity: 0;
+	animation: cursor 1s infinite;
+}
+@keyframes cursor {
+
+	0%,
+	40%,
+	100% {
+		opacity: 0;
+	}
+
+	50%,
+	90% {
+		opacity: 1;
+	}
 }
