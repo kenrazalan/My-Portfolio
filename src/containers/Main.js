@@ -28,11 +28,19 @@ export default class Main extends Component {
   }
 
   componentDidMount() {
-    const darkPref = window.matchMedia("(prefers-color-scheme: dark)");
-    this.setState({ isDark: darkPref.matches });
+    // const darkPref = window.matchMedia("(prefers-color-scheme: dark)");
+    // this.setState({ isDark: darkPref.matches });
+    if (localStorage.getItem('isDark')===null) {
+      const darkPref = window.matchMedia("(prefers-color-scheme: dark)");
+      localStorage.setItem('isDark',darkPref.matches)
+    }  
+    this.setState({ isDark: JSON.parse(localStorage.getItem('isDark')) });
   }
   changeTheme = () => {
-    this.setState({ isDark: !this.state.isDark });
+    // this.setState({ isDark: !this.state.isDark });
+    this.setState({ isDark: !this.state.isDark },()=>{
+      localStorage.setItem('isDark',this.state.isDark)
+    });
   };
 
   render() {
