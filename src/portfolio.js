@@ -12,7 +12,7 @@ const greeting = {
   username: 'Kenneth Razalan',
   title: "Hi all, I'm Kenneth",
   subTitle: emoji(
-    'An aspiring Web Developer 🚀 who loves to build Web applications with JavaScript / Reactjs / Nodejs and some other cool libraries and frameworks.'
+    'An aspiring Web Developer who loves to build Web applications with JavaScript / Reactjs / Nodejs and some other cool libraries and frameworks.'
   ),
   resumeLink:
     '#',
