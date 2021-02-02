@@ -6,6 +6,7 @@ import landingPerson from '../../assets/lottie/landingPerson';
 import DisplayLottie from '../../components/displayLottie/DisplayLottie';
 import SocialMedia from '../../components/socialMedia/SocialMedia';
 import Button from '../../components/button/Button';
+import Typist from 'react-typist'
 
 import { illustration, greeting } from '../../portfolio';
 import StyleContext from '../../contexts/StyleContext';
@@ -24,10 +25,11 @@ export default function Greeting() {
               <h1
                 className={isDark ? 'dark-mode greeting-text' : 'greeting-text'}
               >
-                {' '}
-                {greeting.title}{' '}
+                Hi all, I'm  <Typist avgTypingDelay={200} cursor={{show:false}} ><span className="titlee">
+                 Kenneth Razalan
+                  </span>
                 {/* <span className="wave-emoji">{emoji('👋')}</span> */}
-                <span className="cursor">_</span>
+                <span className="cursor">_</span></Typist>
               </h1>
               <p
                 className={

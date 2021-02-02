@@ -3,6 +3,7 @@ import Headroom from 'react-headroom';
 import './Header.css';
 import ToggleSwitch from '../ToggleSwitch/ToggleSwitch';
 import StyleContext from '../../contexts/StyleContext';
+import Typist from 'react-typist'
 import {
   greeting,
   workExperiences,
@@ -21,15 +22,16 @@ function Header() {
   const viewAchievement = achievementSection.display;
   const viewBlog = blogSection.display;
   const viewTalks = talkSection.display;
+  
 
   return (
     <Headroom>
       <header className={isDark ? 'dark-menu header' : 'header'}>
-        <a href="" className="logo">
+       <Typist cursor={{show:false}}> <a href="" className="logo">
           <span className="grey-color"> &lt;</span>
           <span className="logo-name">{greeting.username}</span>
           <span className="grey-color">/&gt;</span>
-        </a>
+        </a></Typist>
         <input className="menu-btn" type="checkbox" id="menu-btn" />
         <label
           className="menu-icon"
