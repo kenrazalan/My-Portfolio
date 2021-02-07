@@ -42,7 +42,7 @@ const skillsSection = {
     emoji(
       '⚡ Develop highly interactive Front end / User Interfaces for web applications'
     ),
-    emoji('⚡ Able to convert UI prototype into Front-end code')
+    emoji('⚡ Convert UI prototype into Front-end code')
     ,
     emoji('⚡ Backend Development using NodeJs')
     // emoji(
@@ -56,43 +56,43 @@ https://fontawesome.com/icons?d=gallery */
 softwareSkills: [
   {
     skillName: "html-5",
-    fontAwesomeClassname: "fab fa-html5"
+    fontAwesomeClassname: "vscode-icons:file-type-html"
   },
   {
     skillName: "css3",
-    fontAwesomeClassname: "fab fa-css3-alt"
+    fontAwesomeClassname: "vscode-icons:file-type-css"
   },
   {
     skillName: "sass",
-    fontAwesomeClassname: "fab fa-sass"
+    fontAwesomeClassname: "logos:sass"
   },
   {
     skillName: "JavaScript",
-    fontAwesomeClassname: "fab fa-js"
+    fontAwesomeClassname: "logos:javascript"
   },
   {
     skillName: "reactjs",
-    fontAwesomeClassname: "fab fa-react"
+    fontAwesomeClassname: "vscode-icons:file-type-reactjs"
   },
   {
     skillName: "nodejs",
-    fontAwesomeClassname: "fab fa-node"
+    fontAwesomeClassname: "logos:nodejs-icon"
   },
   {
     skillName: "git",
-    fontAwesomeClassname: "fab fa-git"
+    fontAwesomeClassname: "vscode-icons:file-type-git"
   },
   {
     skillName: "github",
-    fontAwesomeClassname: "fab fa-github"
+    fontAwesomeClassname: "akar-icons:github-fill"
   },
   {
     skillName: "npm",
-    fontAwesomeClassname: "fab fa-npm"
+    fontAwesomeClassname: "vscode-icons:file-type-npm"
   },
   {
     skillName: "mongo-db",
-    fontAwesomeClassname: "fas fa-database"
+    fontAwesomeClassname: "vscode-icons:file-type-mongo"
   },
   // {
   //   skillName: "aws",
@@ -100,8 +100,29 @@ softwareSkills: [
   // },
   {
     skillName: "firebase",
-    fontAwesomeClassname: "fas fa-fire"
+    fontAwesomeClassname:"vscode-icons:file-type-firebase" 
   },
+  {
+    skillName: "styled-components",
+    fontAwesomeClassname:"vscode-icons:file-type-styled" 
+  },
+  {
+    skillName: "material-ui",
+    fontAwesomeClassname:"logos:material-ui" 
+  },
+  {
+    skillName: "wordpress",
+    fontAwesomeClassname:"brandico:wordpress"
+  },
+  {
+    skillName: "adobe-xd",
+    fontAwesomeClassname:"cib:adobe-xd" 
+  },
+  {
+    skillName: "shopify",
+    fontAwesomeClassname:"logos:shopify" 
+  },
+
   // {
   //   skillName: "python",
   //   fontAwesomeClassname: "fab fa-python"
