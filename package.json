@@ -17,7 +17,8 @@
     "react-reveal": "^1.2.2",
     "react-scripts": "^3.4.3",
     "react-twitter-embed": "3.0.3",
-    "react-typist": "^2.0.5"
+    "react-typist": "^2.0.5",
+    "typewriter-effect": "^2.17.0"
   },
   "scripts": {
     "predeploy": "npm run build",

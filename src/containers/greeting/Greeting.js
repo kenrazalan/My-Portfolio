@@ -7,7 +7,7 @@ import DisplayLottie from '../../components/displayLottie/DisplayLottie';
 import SocialMedia from '../../components/socialMedia/SocialMedia';
 import Button from '../../components/button/Button';
 import Typist from 'react-typist'
-
+import Typewriter from 'typewriter-effect'
 import { illustration, greeting } from '../../portfolio';
 import StyleContext from '../../contexts/StyleContext';
 
@@ -22,14 +22,17 @@ export default function Greeting() {
         <div className="greeting-main">
           <div className="greeting-text-div">
             <div>
-              <h1
-                className={isDark ? 'dark-mode greeting-text' : 'greeting-text'}
-              >
-                Hi all, I'm  <Typist avgTypingDelay={200} cursor={{show:false}} ><span className="titlee">
+              <h1 className={isDark ? 'dark-mode greeting-text' : 'greeting-text'}>
+                Hi all, I'm 
+                <Typewriter options={{
+                  strings:["Kenneth","Razalan"],
+                  autoStart:true,
+                  loop:true
+                }}/>
+                 {/* <Typist avgTypingDelay={200} cursor={{show:false}} ><span className="titlee">
                  Kenneth Razalan
                   </span>
-                {/* <span className="wave-emoji">{emoji('👋')}</span> */}
-                <span className="cursor">_</span></Typist>
+                </Typist><span className="cursor">_</span> */}
               </h1>
               <p
                 className={
