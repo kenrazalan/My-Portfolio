@@ -263,11 +263,25 @@ const achievementSection = {
           // { name: "Google Code-in Blog", url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html" }
         ]
       },
+      
       {
         title: "ReactJS Udemy Certification",
         subtitle: "Completed 39 hours of The Modern React Bootcamp by Colt Steele in Udemy",
         image: require("./assets/images/udemy.jpg"),
         footerLink: [ { name: "Certification", url: "https://drive.google.com/file/d/1F9h05jdOayHfrU7V6Qxw82P8XpDsgMFn/view?usp=sharing" }]
+      },
+      {
+        title: "Git Udemy Certification",
+        subtitle: "Completed 2.5 hours of Git Basics, Commits, code merges,Github Repositories",
+        image: require("./assets/images/git.jpg"),
+        footerLink: [ { name: "Certification", url: "https://drive.google.com/file/d/1XHYG-EWXJ6mKRqs5EZADzHjowJSYDufv/view?usp=sharing" }]
+      },
+      
+      {
+        title: "NodeJS course with Express, SocketIo and MongoDB",
+        subtitle: "Completed 4.5 hours of NodeJS course with Express, SocketIo and MongoDB by Kim Chen in Udemy",
+        image: require("./assets/images/node.jpg"),
+        footerLink: [ { name: "Certification", url: "https://drive.google.com/file/d/17Ijqh4tmde5AZvbIFa0-uBKgJsFb9Mx5/view?usp=sharing" }]
       },
   
       {
