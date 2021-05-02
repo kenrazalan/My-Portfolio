@@ -15,7 +15,7 @@ const greeting = {
     'An aspiring Web Developer who loves to build Web applications with JavaScript / Reactjs / Nodejs and some other cool libraries and frameworks.'
   ),
   resumeLink:
-    '#',
+    'https://drive.google.com/file/d/1F-kkXkNhFkqe-139sE0GFYNt-p0r2y_6/view?usp=sharing',
   displayGreeting: true, // Set false to hide this section, defaults to true
 };
 
@@ -111,17 +111,17 @@ softwareSkills: [
     fontAwesomeClassname:"logos:material-ui" 
   },
   {
-    skillName: "wordpress",
-    fontAwesomeClassname:"brandico:wordpress"
+    skillName: "postman",
+    fontAwesomeClassname:"logos:postman"
   },
   {
     skillName: "adobe-xd",
     fontAwesomeClassname:"cib:adobe-xd" 
   },
-  {
-    skillName: "shopify",
-    fontAwesomeClassname:"logos:shopify" 
-  },
+  // {
+  //   skillName: "shopify",
+  //   fontAwesomeClassname:"logos:shopify" 
+  // },
 
   // {
   //   skillName: "python",
@@ -170,11 +170,11 @@ const techStack = {
     },
     {
       Stack: 'Backend',
-      progressPercentage: '70%',
+      progressPercentage: '80%',
     },
     {
       Stack: 'Programming',
-      progressPercentage: '60%',
+      progressPercentage: '80%',
     },
   ],
   displayCodersrank: false, // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
@@ -186,33 +186,40 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: 'Software Engineer',
-      company: 'Facebook',
-      companylogo: require('./assets/images/facebookLogo.png'),
-      date: 'June 2018 – Present',
-      desc:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+      role: 'Cyber Security Intern',
+      company: 'ePLDT',
+      companylogo: require('./assets/images/epldt.png'),
+      date: 'January 2020 – March 2020',
+      // desc:
+      //   'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
       descBullets: [
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
+        'Learned different kinds of Cyber Attacks',
+        'Learned Digital Forensic',
+        'Configured GAiA Checkpoint Firewall'
       ],
     },
     {
-      role: 'Front-End Developer',
-      company: 'Quora',
-      companylogo: require('./assets/images/quoraLogo.png'),
-      date: 'May 2017 – May 2018',
-      desc:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+      role: 'IT Support',
+      company: 'Tabaqueria de Filipinas Inc.',
+      companylogo: require('./assets/images/tdfi.png'),
+      date: 'December 2020 – April 2021',
+      // desc:
+      //   'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+      descBullets: [
+        'Troubleshooting technical issues',
+        'Diagnosing and repairing faults',
+        'Resolving network issues'
+      ],
     },
-    {
-      role: 'Software Engineer Intern',
-      company: 'Airbnb',
-      companylogo: require('./assets/images/airbnbLogo.png'),
-      date: 'Jan 2015 – Sep 2015',
-      desc:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
-    },
+    
+    // {
+    //   role: 'Software Engineer Intern',
+    //   company: 'Airbnb',
+    //   companylogo: require('./assets/images/airbnbLogo.png'),
+    //   date: 'Jan 2015 – Sep 2015',
+    //   desc:
+    //     'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+    // },
   ],
 };
 
