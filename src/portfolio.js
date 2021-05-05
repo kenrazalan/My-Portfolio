@@ -193,8 +193,8 @@ const workExperiences = {
       // desc:
       //   'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
       descBullets: [
-        'Learned different kinds of Cyber Attacks',
-        'Learned Digital Forensic',
+        'Assigned in Security Operations Center(SOC) to monitor cyberthreats',
+        'Performed training in Digital Forensics',
         'Configured GAiA Checkpoint Firewall'
       ],
     },
@@ -206,9 +206,9 @@ const workExperiences = {
       // desc:
       //   'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
       descBullets: [
-        'Troubleshooting technical issues',
-        'Diagnosing and repairing faults',
-        'Resolving network issues'
+        'Performed troubleshooting technical issues',
+        'Developed Payslip generator using Excel',
+        'Effectively resolved network issues'
       ],
     },
     
