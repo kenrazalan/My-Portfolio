@@ -62,10 +62,10 @@ softwareSkills: [
     skillName: "css3",
     fontAwesomeClassname: "vscode-icons:file-type-css"
   },
-  {
-    skillName: "sass",
-    fontAwesomeClassname: "logos:sass"
-  },
+  // {
+  //   skillName: "sass",
+  //   fontAwesomeClassname: "logos:sass"
+  // },
   {
     skillName: "JavaScript",
     fontAwesomeClassname: "logos:javascript"
@@ -77,6 +77,10 @@ softwareSkills: [
   {
     skillName: "nodejs",
     fontAwesomeClassname: "logos:nodejs-icon"
+  },
+  {
+    skillName: "redux",
+    fontAwesomeClassname:"logos-redux" 
   },
   {
     skillName: "git",
@@ -98,10 +102,10 @@ softwareSkills: [
   //   skillName: "aws",
   //   fontAwesomeClassname: "fab fa-aws"
   // },
-  {
-    skillName: "firebase",
-    fontAwesomeClassname:"vscode-icons:file-type-firebase" 
-  },
+  // {
+  //   skillName: "firebase",
+  //   fontAwesomeClassname:"vscode-icons:file-type-firebase" 
+  // },
   {
     skillName: "styled-components",
     fontAwesomeClassname:"vscode-icons:file-type-styled" 
