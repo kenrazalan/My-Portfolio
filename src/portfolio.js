@@ -118,10 +118,10 @@ softwareSkills: [
     skillName: "postman",
     fontAwesomeClassname:"logos:postman"
   },
-  {
-    skillName: "adobe-xd",
-    fontAwesomeClassname:"cib:adobe-xd" 
-  },
+  // {
+  //   skillName: "adobe-xd",
+  //   fontAwesomeClassname:"cib:adobe-xd" 
+  // },
   // {
   //   skillName: "shopify",
   //   fontAwesomeClassname:"logos:shopify" 
@@ -211,7 +211,6 @@ const workExperiences = {
       //   'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
       descBullets: [
         'Performed troubleshooting technical issues',
-        'Developed Payslip generator using Excel',
         'Effectively resolved network issues'
       ],
     },
